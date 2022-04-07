@@ -26,6 +26,7 @@ public class Strong_wash extends Normal_wash implements Wash_class{
 // Liskov substitution principle is violated
 
     public String wash(String mode,int repetitions){
+
         return "cannot be executed";
     }
 

@@ -1,3 +1,7 @@
+/*2. Create a class with two (overloaded) constructors. 
+Using this, call the second constructor inside the first one.
+*/
+
 import java.util.*;
 public class Six_Two{
 	int n;

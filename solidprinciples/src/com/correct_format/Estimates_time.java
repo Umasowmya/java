@@ -8,6 +8,7 @@ public class Estimates_time {
     }
 
     public int get_total_time(){
+
         return e.estimate_time();
     }
 

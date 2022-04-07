@@ -18,13 +18,18 @@ public class Fill_water {
     public int get_total_time(){
         return time;
     }
+
     //Single Responsibility principle is violated because two functionalities are being performed by Estimate_Java class
+
+
     public void fill(String level){
         this.level=level;
-        if (level=="high")
+        if (level=="high"){
             System.out.println("filling to high level");
-        else if (level=="low")
+        }
+        else if (level=="low"){
             System.out.println("filling to low level");
+        }
     }
     public void dry()
     {
